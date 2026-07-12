@@ -1,0 +1,243 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe2d1;
+}
+
+#nomebiblioteca {
+    text-align: right;
+    color: red;
+    font-family:Georgia, serif;
+	font-size: 50px; 
+}
+
+.botões_cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-voltar {
+    display: inline-block;
+    background-color: #e8b59c;
+    color: black;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #d9a289;
+    transform: scale(1.05);
+}
+
+.btn-voltar:active {
+    background-color: #c99179;
+}
+.pesquisa {
+    width: 1000px;
+    box-sizing: border-box;
+	
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.pesquisa button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa button img {
+    width: 25px;
+    height: 25px;
+}
+
+#banner {
+    width: 100%;
+    height: 150px;
+}
+
+#banner img {
+   width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1; 
+}
+
+.coluna-esquerda {
+    width: 60%;
+}
+
+.eventos {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.eventos h2 {
+	color: red;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conteudo_eventos{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_eventos img {
+    width: 80%;
+   
+}
+
+
+.coluna-direita {
+    width: 35%;
+}
+
+
+.conta {
+    width: 100%;
+	box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.conta fieldset {
+   background-color: #F07F7F;
+    border: 2px solid #D96A6A;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.conta legend {
+    font-weight: bold;
+    color: #111111;
+	font-size: 18px;
+    padding: 0 10px;
+}
+
+.conta label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+	color: white;
+    font-weight: bold;
+}
+
+.conta input[type="text"],
+.conta input[type="password"] {
+    width: 100%;
+	box-sizing: border-box;
+    padding: 10px;
+    margin-top: 8px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #FFF5F5;
+    outline: none;
+}
+
+
+.esqueceu {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFEAEA;
+    font-size: 14px;
+}
+
+.esqueceu:hover {
+    color: white;
+}
+
+.texto_eventos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.texto_eventos li::before 
+{ content: "⭐ "; 
+}
+
+.texto_eventos a {
+    font-size: 35px;
+	line-height: 1.6;
+}
+
+.texto_eventos a {
+    color: black;
+    text-decoration: underline;
+
+    transition: color 0.3s;
+}
+
+.texto_eventos a:hover {
+    color: #D96A6A;
+}
+
+.texto_eventos a:active {
+    color: #FFF08A;
+}
+
+#entrar {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: white;
+	color: #D96A6A;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#entrar:hover {
+    background-color: #FFF08A;
+}
+
+#rodape {
+    background-color: #e8b59c;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+#rodape img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
